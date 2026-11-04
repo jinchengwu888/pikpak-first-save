@@ -27,6 +27,8 @@ It does not collect passwords, verification codes, or tokens. Account creation a
 
 ## Optional referral
 
+**Activation pending (2026-11-04):** the publisher's CLI referral distribution is awaiting PikPak identity verification. Until this notice is updated, use existing-account login or the explicit no-referral registration command below. The skill must not start registration with this project's referral code yet.
+
 This project is published by `jinchengwu888`, an independent PikPak referrer. If you choose code **78819746**, the publisher may receive referral rewards from qualifying purchases. This is optional and does not promise a discount, free Premium, or a particular price. Check PikPak's registration and checkout pages for current terms.
 
 After installing the official CLI, choose the command that matches your situation:
@@ -35,7 +37,7 @@ After installing the official CLI, choose the command that matches your situatio
 # Existing account: sign in; do not register another account.
 pikpak auth login
 
-# New account, if you choose this project's referral:
+# After activation only: new account with this project's optional referral.
 pikpak auth register --affiliate 78819746
 
 # New account, without any installer-recorded referral code:

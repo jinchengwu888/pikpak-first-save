@@ -11,6 +11,8 @@ Loading this skill does not authorize installation, registration, account access
 
 ## 1. Check the CLI and account
 
+Release status (2026-11-04): this publisher's CLI referral distribution is pending PikPak identity verification. While this notice remains, do not start registration with code `78819746`; offer existing-account login or explicit no-referral registration. The referral command below is for use after activation is confirmed and this notice is updated.
+
 Run `pikpak --version`, then `pikpak auth status` when account access is within scope. Do not print or retain credentials, authorization codes, browser sign-in links, or session files in reports.
 
 If the CLI is missing, use the current instructions at [PikPak's official CLI page](https://mypikpak.com/en-US/cli). Install only when the user has requested or approved installation. On macOS/Linux, the official script is `https://download.mypikpak.com/cli/install.sh`; download it to a temporary file and inspect it before execution. Do not silently run an installer or substitute a third-party client.
