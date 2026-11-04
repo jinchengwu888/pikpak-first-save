@@ -27,8 +27,6 @@ It does not collect passwords, verification codes, or tokens. Account creation a
 
 ## Optional referral
 
-**Activation pending (2026-11-04):** the publisher's CLI referral distribution is awaiting PikPak identity verification. Until this notice is updated, use existing-account login or the explicit no-referral registration command below. The skill must not start registration with this project's referral code yet.
-
 This project is published by `jinchengwu888`, an independent PikPak referrer. If you choose code **78819746**, the publisher may receive referral rewards from qualifying purchases. This is optional and does not promise a discount, free Premium, or a particular price. Check PikPak's registration and checkout pages for current terms.
 
 After installing the official CLI, choose the command that matches your situation:
@@ -37,7 +35,7 @@ After installing the official CLI, choose the command that matches your situatio
 # Existing account: sign in; do not register another account.
 pikpak auth login
 
-# After activation only: new account with this project's optional referral.
+# New account, if you choose this project's referral:
 pikpak auth register --affiliate 78819746
 
 # New account, without any installer-recorded referral code:
@@ -57,6 +55,8 @@ If a task is still running, the agent reports it as pending. Metadata checks con
 ## Verification and sources
 
 On **2026-11-04**, command syntax was checked against the official macOS ARM64 CLI **v0.6.0**, downloaded from PikPak and matched to its published SHA-256 checksum. Validation covered version/help output, skill structure, and independent onboarding scenario review. No new account, paid order, or live cloud download was created during this validation. Other operating systems were not executed.
+
+A signup-link-only check confirmed that the official registration URL carries this project's invitation code. It did not create an account or establish referral attribution.
 
 - [Official CLI and installation](https://mypikpak.com/en-US/cli)
 - [Official referral-code integration](https://mypikpak.com/referral/help-center/en-US/8-cli-and-developer-distribution/how-to-use-invitation-code-in-pikpak-cli)

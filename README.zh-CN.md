@@ -20,8 +20,6 @@ npx skills add jinchengwu888/pikpak-first-save --skill pikpak-first-save
 
 ## 自愿选择引荐
 
-**待启用（2026-11-04）：** 发布者的 CLI 引荐分发尚待 PikPak 身份验证。此说明更新前，请使用已有账号登录或下方的显式无引荐注册命令；Skill 暂不使用本项目的邀请码发起注册。
-
 发布者 `jinchengwu888` 是独立推广者。选择邀请码 **78819746** 后，发布者可能从符合条件的会员购买中获得引荐奖励。是否使用邀请码由你决定；本项目不承诺折扣、免费会员或固定价格。实际条款与价格以 PikPak 注册和购买页面为准。
 
 安装 [PikPak 官方 CLI](https://mypikpak.com/en-US/cli) 后，根据情况选择：
@@ -30,7 +28,7 @@ npx skills add jinchengwu888/pikpak-first-save --skill pikpak-first-save
 # 已有账号：登录，不重复注册。
 pikpak auth login
 
-# 仅在启用后：新用户自愿使用本项目的邀请码。
+# 新用户，自愿使用本项目的邀请码：
 pikpak auth register --affiliate 78819746
 
 # 新用户，不使用安装器曾记录的邀请码：
@@ -52,5 +50,7 @@ pikpak auth register --affiliate=
 ## 验证范围
 
 2026-11-04 已使用官方 macOS ARM64 CLI **v0.6.0** 验证相关命令的版本和帮助输出，并比对官方 SHA-256；同时进行 Skill 结构校验及独立场景审查。本次没有创建新账号、会员订单或真实云下载任务；其他操作系统未执行测试。[英文说明](README.md#verification-and-sources)列有官方来源。
+
+仅生成注册链接的检查已确认官方注册链接携带本项目邀请码；这项检查没有创建账号，也不代表已产生真实引荐归因。
 
 独立项目，并非 PikPak 官方产品。MIT 许可。
