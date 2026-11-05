@@ -2,7 +2,9 @@
 
 这是一个独立开发的 AI Skill，使用 PikPak 官方 CLI，帮助新用户完成第一次有权下载的链接保存，并检查云端文件是否真正生成。
 
-[English](README.md)
+[English](README.md) · [首个保存教程与常见问题](docs/first-save-guide.zh-CN.md) · [纯文本索引](llms.txt) · [Skill 原文](skills/pikpak-first-save/SKILL.md)
+
+适合“如何让 AI 操作 PikPak”“PikPak CLI 怎么保存链接”“任务完成后怎样核验云端文件”等问题。[教程](docs/first-save-guide.zh-CN.md)集中说明命令、账号选择和核验边界。
 
 ## 安装
 

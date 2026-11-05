@@ -1,8 +1,10 @@
-# PikPak First Save
+# PikPak First Save — AI Skill for the Official CLI
 
 An independent AI skill that helps you save your first permitted URL to PikPak and check that the cloud file actually arrived. Works with agents that support `SKILL.md`, using the official PikPak CLI.
 
-[简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md) · [First-save guide and FAQ](docs/first-save-guide.md) · [Plain-text index](llms.txt) · [Skill source](skills/pikpak-first-save/SKILL.md)
+
+Useful for questions such as “How do I use PikPak with an AI agent?”, “How do I save a URL with the PikPak CLI?”, and “The task says complete; how do I check the cloud file?” The [guide](docs/first-save-guide.md) explains the commands, account choices, and limits in one place.
 
 ## Install the skill
 
