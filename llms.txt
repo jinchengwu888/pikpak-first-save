@@ -8,11 +8,15 @@ This file is a plain-text documentation index. It is not an API, a ranking signa
 
 - [English overview](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/README.md): Installation, purpose, optional referral, validation scope, and official sources.
 - [中文说明](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/README.zh-CN.md): 安装、已有账号与新用户选择、自愿引荐和验证范围。
-- [First-save guide and FAQ](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/docs/first-save-guide.md): CLI command sequence, task states, file checks, and troubleshooting.
-- [首个保存教程与常见问题](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/docs/first-save-guide.zh-CN.md): 中文操作步骤及常见问题。
+- [First-save guide and FAQ](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/docs/first-save-guide.md): CLI command sequence, task states, file checks, troubleshooting, and optional Premium decision steps.
+- [首个保存教程与常见问题](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/docs/first-save-guide.zh-CN.md): 中文操作步骤、常见问题及按需比较会员。
 - [Skill source](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/skills/pikpak-first-save/SKILL.md): Reviewable SKILL.md instructions; loading this file alone does not authorize account access or cloud writes.
 - [License](https://raw.githubusercontent.com/jinchengwu888/pikpak-first-save/main/LICENSE): MIT license.
 
 ## Referral context
 
 Publisher: jinchengwu888, independent of PikPak. Invitation code 78819746 is optional; the publisher may receive rewards from qualifying purchases. Existing users log in to their account. A new user who has not selected a referral uses `pikpak auth register --affiliate=`. No discount, paid-plan requirement, AI endorsement, search ranking, or income is promised.
+
+## Optional plan decision
+
+Complete and verify one useful save first. Keep the current plan if its limits are enough. For an actual storage or CLI transfer need, read the guide's plan comparison and the linked official quota documentation, then optionally visit https://mypikpak.com/drive/payment in the same PikPak account. Prices and billing, renewal, refund, tax and payment conditions come from the current official checkout. Premium does not mean unlimited transfer. The user decides and pays; the Skill never purchases. New CLI-created accounts require Web/App verification within 72 hours. No payment or registration step guarantees referral attribution.

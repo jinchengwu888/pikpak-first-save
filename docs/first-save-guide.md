@@ -71,6 +71,27 @@ For an interactive first save, the skill makes at most five status checks ten se
 | Task complete, file missing or ambiguous | Inspect the requested destination and returned IDs; keep file verification unresolved. |
 | Identified cloud file with nonzero reported size | Report its metadata. Playback and full integrity still need separate checks. |
 
+## 4. Decide whether Premium is useful
+
+First confirm that the saved file meets your need. Premium is optional; it does not fix an invalid URL or an unsupported source.
+
+| Your need | A useful choice |
+| --- | --- |
+| Occasional saves within your current limits | Keep using the current plan. |
+| More cloud storage for regular use | Compare [free 6 GB and Premium 10 TB](https://mypikpak.com/en-US/help-center/file_management/space/insufficient_cloud_storage_space) with your actual account usage. |
+| CLI transfers reach the free Connected Apps daily limit | Official help lists a [5 GB daily downstream limit for free accounts](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/free_account_daily_downstream_limit), removed with Premium. [Monthly transfer quotas and the Connected Apps sublimit still apply](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/difference_from_monthly_quota); this is not unlimited traffic. |
+
+Downstream means traffic for viewing, playback or downloads to a device, not the number of links saved into the cloud. Plan facts were checked on **2026-11-06**. If Premium addresses a real need:
+
+1. For a new CLI-created account, complete the required Web/App verification within **72 hours**. Use the same PikPak account as the first save.
+2. [Open PikPak's official plan and purchase page](https://mypikpak.com/drive/payment), then check the signed-in account.
+3. Review the price, currency, billing period, renewal terms, refund conditions, taxes and available payment methods shown for that account. Choose a plan only if it fits your need and budget.
+4. Complete any purchase yourself on PikPak's official page. The agent does not enter payment details, place an order, or buy a subscription.
+
+If checkout fails, follow [PikPak's official payment help](https://mypikpak.com/en-US/help-center/premium/payment_and_billing/failure_to_pay). If already charged but Premium is missing, follow [the activation help](https://mypikpak.com/en-US/help-center/premium/payment_and_billing/premium_not_activated) rather than paying again.
+
+Registration and payment steps do not guarantee referral attribution or rewards; PikPak determines eligibility. No purchase is needed to keep using this Skill.
+
 ## Common questions
 
 ### Does this download a file onto my computer?

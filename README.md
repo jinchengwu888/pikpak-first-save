@@ -6,6 +6,14 @@ An independent AI skill that helps you save your first permitted URL to PikPak a
 
 Useful for questions such as “How do I use PikPak with an AI agent?”, “How do I save a URL with the PikPak CLI?”, and “The task says complete; how do I check the cloud file?” The [guide](docs/first-save-guide.md) explains the commands, account choices, and limits in one place.
 
+## Start with one useful result
+
+1. [Save and verify one URL](docs/first-save-guide.md) with your current account.
+2. [Check whether Premium fits your needs](docs/first-save-guide.md#4-decide-whether-premium-is-useful). Keep your current plan if its limits are sufficient.
+3. If the extra capacity or CLI allowance is useful, [view PikPak's official plans](https://mypikpak.com/drive/payment) and choose for yourself.
+
+Official help checked on **2026-11-06** lists [6 GB of free storage and 10 TB with Premium](https://mypikpak.com/en-US/help-center/file_management/space/insufficient_cloud_storage_space). For regular CLI use, Premium also [removes the free Connected Apps daily downstream limit](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/free_account_daily_downstream_limit); monthly transfer quotas still apply. The guide explains these limits and the account checks before purchase.
+
 ## Install the skill
 
 ```bash

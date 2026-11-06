@@ -71,6 +71,27 @@ pikpak get <fileID>
 | 任务完成，但文件缺失或有歧义 | 检查目标目录和返回的 ID，文件核验仍未完成。 |
 | 找到对应文件且报告大小非零 | 报告元数据；播放和完整性仍需另行检查。 |
 
+## 4. 判断会员是否适合你
+
+先确认保存的文件满足你的需求。会员是可选项，不能修复无效链接或不支持的来源。
+
+| 你的需求 | 可以怎样选择 |
+| --- | --- |
+| 偶尔保存，现有额度够用 | 继续使用当前套餐。 |
+| 经常使用，需要更多云空间 | 结合账号实际用量，比较[免费 6 GB 与 Premium 10 TB 空间](https://mypikpak.com/en-US/help-center/file_management/space/insufficient_cloud_storage_space)。 |
+| CLI 传输触及免费 Connected Apps 每日限制 | 官方说明免费账号有[每日 5 GB 下行限制](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/free_account_daily_downstream_limit)，Premium 移除此每日限制；[月度传输配额和 Connected Apps 子上限仍适用](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/difference_from_monthly_quota)，不是无限流量。 |
+
+这里的下行指查看、播放或下载到设备的流量，不是保存链接到云端的次数。以上套餐事实核对于 **2026-11-06**。如果会员确实解决你的使用需求：
+
+1. CLI 新注册账号应在 **72 小时内**完成 Web/App 验证，沿用首次保存时的同一 PikPak 账号。
+2. [打开 PikPak 官方套餐与购买页面](https://mypikpak.com/drive/payment)，核对当前登录账号。
+3. 看清该账号显示的价格、币种、计费期限、续订条款、退款条件、税费和可用支付方式，按需求与预算选择。
+4. 由你本人在官方页面完成购买。Agent 不输入支付资料、不创建订单，也不购买订阅。
+
+结账失败时查看[官方付款帮助](https://mypikpak.com/en-US/help-center/premium/payment_and_billing/failure_to_pay)。已经扣款但会员未到账时，按[官方到账排查说明](https://mypikpak.com/en-US/help-center/premium/payment_and_billing/premium_not_activated)处理，不要再次付款。
+
+完成注册或付款步骤不保证引荐归因或奖励，是否符合条件由 PikPak 判断。继续使用本 Skill 无需购买会员。
+
 ## 常见问题
 
 ### 会下载到我的电脑吗？

@@ -6,6 +6,14 @@
 
 适合“如何让 AI 操作 PikPak”“PikPak CLI 怎么保存链接”“任务完成后怎样核验云端文件”等问题。[教程](docs/first-save-guide.zh-CN.md)集中说明命令、账号选择和核验边界。
 
+## 先完成一个有用的结果
+
+1. 用现有账号[保存并核验一个链接](docs/first-save-guide.zh-CN.md)。
+2. [按实际需求判断是否需要会员](docs/first-save-guide.zh-CN.md#4-判断会员是否适合你)；现有额度够用就继续使用。
+3. 如果更大的空间或 CLI 传输额度对你有用，再[查看 PikPak 官方套餐](https://mypikpak.com/drive/payment)，自行决定。
+
+**2026-11-06** 核对的官方帮助列出[免费空间 6 GB、Premium 空间 10 TB](https://mypikpak.com/en-US/help-center/file_management/space/insufficient_cloud_storage_space)。经常使用 CLI 的用户还可关注：Premium [移除免费账号 Connected Apps 每日下行限制](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/free_account_daily_downstream_limit)，但仍有月度传输配额。教程说明这些条件和购买前的账号核对。
+
 ## 安装
 
 ```bash
